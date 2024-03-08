@@ -50,9 +50,5 @@ All bonuses were developed.
 - React router
 
 **Known issues**
-- Server
-- In update user, the server does not validate the required fields.
-- Client
-- Some creation modals does not include validation error for part of the fields (according to the requirements), in such case I throw the server error.
 - UI issues on MAC
 
