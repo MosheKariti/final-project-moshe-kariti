@@ -1,3 +1,13 @@
+# Start the project
+- Clone the project
+- Run the server 
+  - cd server
+  - npm install
+  - npm run start
+- Run the client
+  - npm install
+  - npm run start
+
 # Introduction
 React project, requirements by Hacker U.
 - The client side was made by me (Moshe Kariti).
