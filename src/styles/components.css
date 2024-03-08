@@ -1,0 +1,58 @@
+/*Footer*/
+.footer {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.171), 0 1px 2px 0 rgba(0, 0, 0, 0.139);
+    align-items: center;
+    position: fixed;
+    display: block;
+    bottom: 0;
+    height: 50px;
+    padding: 12px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+/*Header*/
+#header {
+    background-color: rgb(33,52,50,0.28);
+}
+
+/*LoggedInUser*/
+.logged-in-user {
+    background-color: rgba(13, 192, 138, 0.62);
+    padding: 12px;
+    color: black;
+    font-weight: bold;
+    width: auto;
+}
+
+/*General*/
+.content {
+    margin-top: 80px;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+/*pop-ups-modals*/
+#myModal.modal {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+#myModal .modal-dialog.modal-lg {
+    width: 1500px;
+}
+
+/*Update-AND-RegistrationPage-User-Modal*/
+.form-columns {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    max-width: 450px;
+    flex: 1;
+}
+

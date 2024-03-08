@@ -1,0 +1,7 @@
+.backgroundImageHomePage {
+    background-image:url(https://cdn.wpml.org/wp-content/uploads/2018/07/accounting-alone-application-938965-1024x590.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:fixed;
+}

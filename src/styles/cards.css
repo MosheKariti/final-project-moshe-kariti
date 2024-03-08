@@ -1,0 +1,36 @@
+/*cards-Form*/
+.card-form-icon {
+    margin: 2px;
+}
+.display-flex {
+    display: flex;
+}
+
+/*cards-Render*/
+.card-render-main-card {
+    width:300px;
+    min-height:400px;
+    margin: 10px;
+}
+#card-render-card-content {
+    padding-bottom: 5px;
+}
+#card-render-div-card-title-description {
+    height: 80px;
+}
+#card-render-div-card-street-phone {
+    margin-top: 20px;
+    height: 130px;
+}
+.card-render-card-street-phone {
+    font-size: 16px;
+}
+#card-render-div-card-phone {
+    margin-top: 8px;
+}
+
+/*My-cards-View*/
+#my-cards-view-cards-grid {
+    flex: 0 0 10%;
+    padding: 10px;
+}

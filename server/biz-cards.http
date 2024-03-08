@@ -1,0 +1,73 @@
+/////// USERS ///////
+
+### Post a user:
+POST {{host}}{{users}}
+Content-Type: application/json
+
+{{business-user}}
+
+
+### Login
+POST {{host}}{{users}}/login
+Content-Type: application/json
+
+{{business-user-credentials}}
+
+
+### Get all users:
+GET {{host}}{{users}}
+Authorization: Bearer {{business-user-token}}
+
+
+### Get user:
+GET {{host}}{{users}}/656b7e9abd8589a41bd3ea9e
+Authorization: Bearer {{business-user-token}}
+
+
+### Update user:
+PUT {{host}}{{users}}/656b7e9abd8589a41bd3ea9e
+Content-Type: application/json
+Authorization: Bearer {{business-user-token}}
+
+{{update-user}}
+
+
+### Patch user:
+PATCH {{host}}{{users}}/656b7e9abd8589a41bd3ea9e
+Authorization: Bearer {{business-user-token}}
+
+
+### Delete user:
+DELETE {{host}}{{users}}/656b7e9abd8589a41bd3ea9e
+Authorization: Bearer {{business-user-token}}
+
+
+/////// CARDS ///////
+
+### Get all cards:
+GET {{host}}{{cards}}
+Authorization: Bearer {{business-user-token}}
+
+
+### Get my cards:
+GET {{host}}{{cards}}/my-cards
+Authorization: Bearer {{business-user-token}}
+
+### Get card by id:
+GET {{host}}{{cards}}/656d6bf46aa98563a29c62ae
+
+### Post a card:
+POST {{host}}{{cards}}
+Content-Type: application/json
+Authorization: Bearer {{business-user-token}}
+
+{{card}}
+
+### Card like/unlike:
+PATCH {{host}}{{cards}}/656d6bf46aa98563a29c62ae
+Content-Type: application/json
+Authorization: Bearer {{business-user-token}}
+
+### Delete card:
+DELETE {{host}}{{cards}}/656d6bab3a0e864c720620a7
+Authorization: Bearer {{business-user-token}}
